@@ -36,9 +36,7 @@ namespace Demo2
                 .TakeUntil(up)
                 .Repeat()
                 .ToReactiveProperty();
-
-
-            
+                        
             this.DataContext = this;
         }
 
