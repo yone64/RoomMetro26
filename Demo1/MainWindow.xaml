@@ -9,10 +9,10 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
-            <ColumnDefinition Width="auto" />
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBox Text="{Binding Input.Value, UpdateSourceTrigger=PropertyChanged}"/>
         <TextBlock Text="{Binding Output.Value}" Grid.Row="1"/>
-        <ListBox Width="300" Grid.Column="1" Grid.RowSpan="2" ItemsSource="{Binding Result.Value}"/>
+        <ListBox  Grid.Column="1" Grid.RowSpan="2" ItemsSource="{Binding Result.Value}"/>
     </Grid>
 </Window>
